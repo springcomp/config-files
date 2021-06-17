@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+k d",
+        "command": "editor.action.formatDocument"
+    },
+    {
+        "key": "ctrl+k ctrl+d",
+        "command": "editor.action.formatDocument"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.files.openFile"
+    }
+]

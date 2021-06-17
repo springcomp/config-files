@@ -1,0 +1,34 @@
+{
+    "azureLogicAppsV2.projectRuntime": "~3",
+    "editor.tabSize": 4,
+    "editor.cursorStyle": "line",
+    "editor.insertSpaces": false,
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "azure.cloud": "AzureCloud",
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+    "terminal.integrated.defaultProfile.windows": "pwsh-daily",
+    "terminal.integrated.profiles.windows": {
+        "pwsh-daily": {
+            "path": "D:\\Users\\mlabelle\\AppData\\Local\\Microsoft\\powershell-daily\\pwsh.exe",
+        }
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": [ "+" ], "after": [ "$" ] },
+        { "before": [ "’" ], "after": [ "_" ] }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        { "before": [ "+" ], "after": [ "$" ] },
+        { "before": [ "’" ], "after": [ "_" ] }
+    ],
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "[xml]": {
+        "editor.defaultFormatter": "DotJoshJohnson.xml"
+    }
+}
