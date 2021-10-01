@@ -13,7 +13,7 @@
     "terminal.integrated.defaultProfile.windows": "pwsh-daily",
     "terminal.integrated.profiles.windows": {
         "pwsh-daily": {
-            "path": "D:\\Users\\mlabelle\\AppData\\Local\\Microsoft\\powershell-daily\\pwsh.exe",
+            "path": "${LOCALAPPDATA}\\Microsoft\\powershell-daily\\pwsh.exe",
         }
     },
     "security.workspace.trust.untrustedFiles": "open",
