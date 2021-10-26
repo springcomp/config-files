@@ -1,10 +1,10 @@
 {
-    "[xml]": {
-        "editor.defaultFormatter": "DotJoshJohnson.xml"
-    },
+    "[yaml]": { "editor.tabSize": 2 },
+    "[xml]": { "editor.defaultFormatter": "DotJoshJohnson.xml" },
     "azure.cloud": "AzureCloud",
     "azureLogicAppsV2.projectRuntime": "~3",
     "editor.cursorStyle": "line",
+    "editor.detectIndentation": false,
     "editor.insertSpaces": false,
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
