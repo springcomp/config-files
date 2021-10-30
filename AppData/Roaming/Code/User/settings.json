@@ -21,6 +21,9 @@
         }
     },
     "terminal.integrated.tabs.enabled": false,
+    "vim.insertindingsNonRecursive": [
+        { "before": [ "j", "j" ], "after": [ "<esc>" ] }
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": [ "+" ], "after": [ "$" ] },
         { "before": [ "’" ], "after": [ "_" ] }
@@ -31,5 +34,6 @@
     ],
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Visual Studio Dark"
+    "workbench.colorTheme": "Visual Studio Dark",
+    "redhat.telemetry.enabled": false
 }
