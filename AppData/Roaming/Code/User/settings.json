@@ -17,7 +17,7 @@
     "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "terminal.integrated.profiles.windows": {
         "pwsh-daily": {
-            "path": "C:\\Users\\maxim\\AppData\\Local\\Microsoft\\powershell-daily\\pwsh.exe",
+            "path": "${env:LOCALAPPDATA}\\Microsoft\\powershell-daily\\pwsh.exe",
         }
     },
     "terminal.integrated.tabs.enabled": false,
