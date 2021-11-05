@@ -21,7 +21,7 @@
         }
     },
     "terminal.integrated.tabs.enabled": false,
-    "vim.insertindingsNonRecursive": [
+    "vim.insertModeKeyBindingsNonRecursive": [
         { "before": [ "j", "j" ], "after": [ "<esc>" ] }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
