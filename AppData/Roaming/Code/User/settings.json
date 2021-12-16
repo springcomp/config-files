@@ -2,7 +2,7 @@
     "[yaml]": { "editor.tabSize": 2 },
     "[xml]": { "editor.defaultFormatter": "DotJoshJohnson.xml" },
     "azure.cloud": "AzureCloud",
-    "azureLogicAppsV2.projectRuntime": "~3",
+    "editor.bracketPairColorization.enabled": true,
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
     "editor.lineNumbers": "relative",
