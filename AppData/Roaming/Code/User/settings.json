@@ -1,7 +1,12 @@
 {
+    "[js]": { "editor.tabSize": 2 },
+    "[json]": { "editor.tabSize": 2 },
+    "[tf]": { "editor.tabSize": 2 },
+    "[typescript]": { "editor.tabSize": 2 },
     "[yaml]": { "editor.tabSize": 2 },
     "[xml]": { "editor.defaultFormatter": "DotJoshJohnson.xml" },
     "azure.cloud": "AzureCloud",
+    "codetour.showMarkers": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.cursorStyle": "line",
     "editor.insertSpaces": false,
@@ -11,7 +16,9 @@
     "editor.tabSize": 4,
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "off",
+    "javascript.updateImportsOnFileMove.enabled": "always",
     "powershell.integratedConsole.showOnStartup": false,
+    "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.defaultProfile.windows": "pwsh-daily",
     "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
@@ -35,5 +42,5 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Visual Studio Dark",
-    "redhat.telemetry.enabled": false
+    "workbench.tree.indent": 20
 }
