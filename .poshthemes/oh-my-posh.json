@@ -1,39 +1,60 @@
 {
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
       "type": "prompt",
       "alignment": "left",
       "segments": [
         {
+          "properties": {},
           "type": "session",
-          "style": "plain",
-          "foreground": "#ffffff",
+          "style": "powerline",
           "background": "#0087af",
-          "properties": {
-            "display_host": false
-          }
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "template": "{{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}"
         },
         {
+          "properties": {
+            "prefix": "<#0087af>\ue0b0</> ",
+            "folder_separator_icon": " <#808080>\ue0b1</> ",
+            "style": "agnoster_full"
+          },
           "type": "path",
           "style": "diamond",
-          "trailing_diamond": "\uE0B0",
-          "foreground": "#ffffff",
           "background": "#585858",
-          "properties": {
-            "prefix": "<#0087af>\uE0B0</> ",
-            "folder_separator_icon": " <#808080>\uE0B1</> ",
-            "style": "agnoster_full"
-          }
+          "foreground": "#ffffff",
+          "trailing_diamond": "\ue0b0"
         },
         {
           "type": "git",
           "style": "powerline",
-          "powerline_symbol": "\uE0B0",
+          "background": "#ff6a00",
           "foreground": "#ffffff",
-          "background": "#ff6a00"
+          "powerline_symbol": "\ue0b0"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "properties": {
+            "always_enabled": true
+          },
+          "type": "status",
+          "style": "plain",
+          "foreground": "#ffffff",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#ff0000{{ end }}"
+          ],
+          "template": "\u276f "
         }
       ]
     }
   ],
+  "version": 3,
   "final_space": true
 }
