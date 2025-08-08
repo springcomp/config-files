@@ -1,46 +1,81 @@
 {
-    "[js]": { "editor.tabSize": 2 },
-    "[json]": { "editor.tabSize": 2 },
-    "[tf]": { "editor.tabSize": 2 },
-    "[typescript]": { "editor.tabSize": 2 },
-    "[yaml]": { "editor.tabSize": 2 },
-    "[xml]": { "editor.defaultFormatter": "DotJoshJohnson.xml" },
-    "azure.cloud": "AzureCloud",
-    "codetour.showMarkers": false,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.cursorStyle": "line",
-    "editor.insertSpaces": false,
-    "editor.lineNumbers": "relative",
-    "editor.minimap.enabled": false,
-    "editor.suggestSelection": "first",
-    "editor.tabSize": 4,
-    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-    "editor.wordWrap": "off",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "powershell.integratedConsole.showOnStartup": false,
-    "redhat.telemetry.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "terminal.integrated.defaultProfile.windows": "pwsh-daily",
-    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
-    "terminal.integrated.profiles.windows": {
-        "pwsh-daily": {
-            "path": "${env:LOCALAPPDATA}\\Microsoft\\powershell-daily\\pwsh.exe",
-        }
-    },
-    "terminal.integrated.tabs.enabled": false,
-    "vim.insertModeKeyBindingsNonRecursive": [
-        { "before": [ "j", "j" ], "after": [ "<esc>" ] }
-    ],
-    "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [ "+" ], "after": [ "$" ] },
-        { "before": [ "’" ], "after": [ "_" ] }
-    ],
-    "vim.visualModeKeyBindingsNonRecursive": [
-        { "before": [ "+" ], "after": [ "$" ] },
-        { "before": [ "’" ], "after": [ "_" ] }
-    ],
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Visual Studio Dark",
-    "workbench.tree.indent": 20
+	"[javascript][typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json][jsonc]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[tf]": {},
+	"[yaml]": {},
+	"[xml]": {
+		"editor.defaultFormatter": "DotJoshJohnson.xml"
+	},
+	"codetour.showMarkers": false,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.cursorStyle": "line",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": true,
+	"editor.lineNumbers": "relative",
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.minimap.enabled": false,
+	"editor.suggestSelection": "first",
+	"editor.useTabStops": true,
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"files.eol": "\n",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"npm.packageManager": "pnpm",
+	"powershell.integratedConsole.showOnStartup": false,
+	"redhat.telemetry.enabled": false,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.defaultProfile.windows": "pwsh-daily",
+	"terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font Mono",
+	"terminal.integrated.profiles.windows": {
+		"pwsh-daily": {
+			"path": "${env:LOCALAPPDATA}\\Microsoft\\powershell\\pwsh.exe"
+		}
+	},
+	"terminal.integrated.tabs.enabled": false,
+	"vim.insertModeKeyBindingsNonRecursive": [
+		{
+			"before": ["j", "j"],
+			"after": ["<esc>"]
+		}
+	],
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["+"],
+			"after": ["$"]
+		},
+		{
+			"before": ["’"],
+			"after": ["_"]
+		}
+	],
+	"vim.visualModeKeyBindingsNonRecursive": [
+		{
+			"before": ["+"],
+			"after": ["$"]
+		},
+		{
+			"before": ["’"],
+			"after": ["_"]
+		}
+	],
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"window.zoomLevel": 1,
+	"workbench.colorTheme": "Visual Studio Dark",
+	"workbench.tree.indent": 20,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"jsonc": false
+	},
+	"github.copilot.nextEditSuggestions.enabled": false
 }
